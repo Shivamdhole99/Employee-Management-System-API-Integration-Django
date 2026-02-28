@@ -227,7 +227,9 @@ Employees can be managed with full CRUD operations:
 ## 👨‍🎓 Author
 
 **Shivam Dhole**
+
 B.Tech. Artificial Intelligence & Machine Learning
+
 Aspiring Backend & Python Developer
 
 🔗 GitHub: https://github.com/Shivamdhole99 
