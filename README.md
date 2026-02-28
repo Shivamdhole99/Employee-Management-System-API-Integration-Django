@@ -94,15 +94,15 @@ Employee-Management-System-API-Integration-Django/
 
 ## ✨ Features
 
-✅ User Registration
-✅ Secure Login & Logout
-✅ Employee Record Management
-✅ Add Employee
-✅ Update Employee Details
-✅ Delete Employee
-✅ View Employee List
-✅ Authentication-Based Access
-✅ Clean MVC Architecture
+✅ User Registration \n
+✅ Secure Login & Logout \n
+✅ Employee Record Management \n
+✅ Add Employee \n
+✅ Update Employee Details \n
+✅ Delete Employee \n
+✅ View Employee List \n
+✅ Authentication-Based Access \n
+✅ Clean MVC Architecture \n
 
 ---
 
@@ -230,7 +230,7 @@ Employees can be managed with full CRUD operations:
 B.Tech. Artificial Intelligence & Machine Learning
 Aspiring Backend & Python Developer
 
-🔗 GitHub: https://github.com/Shivamdhole99
+🔗 GitHub: https://github.com/Shivamdhole99 \n
 🔗 LinkedIn: https://www.linkedin.com/in/shivam-dhole-468a232b5/
 ---
 
