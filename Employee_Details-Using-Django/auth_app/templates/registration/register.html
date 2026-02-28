@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Register</title>
+<style>
+body{
+  background:#4a6cf7;
+  font-family:Arial, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.wrapper{display:flex;gap:40px;}
+.card{
+  background:#fff;
+  padding:30px;
+  width:300px;
+  border-radius:10px;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+input{
+  width:100%;
+  padding:10px;
+  margin-bottom:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+button{
+  width:100%;
+  padding:10px;
+  background:#4a6cf7;
+  border:none;
+  color:#fff;
+  border-radius:6px;
+}
+a{color:#4a6cf7;text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="card">
+<h2>Registration</h2>
+<form method="POST" action="">
+    {% csrf_token %}
+
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+
+    <button type="submit">Register</button>
+</form>
+<p>Already registered?<a href="{% url 'login' %}">Login</a></p>
+</div>
+</div>
+</body>
+</html>
+
